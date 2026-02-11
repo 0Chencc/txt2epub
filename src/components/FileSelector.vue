@@ -4,7 +4,7 @@
     <input
       type="file"
       accept=".txt"
-      class="block w-full text-sm text-gray-500 dark:text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-emerald-50 file:text-emerald-700 dark:file:bg-emerald-900/30 dark:file:text-emerald-400 hover:file:bg-emerald-100 dark:hover:file:bg-emerald-900/50 cursor-pointer"
+      class="block w-full text-sm text-gray-500 dark:text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-emerald-500 file:text-white dark:file:bg-emerald-900/30 dark:file:text-emerald-400 hover:file:bg-emerald-600 dark:hover:file:bg-emerald-900/50 cursor-pointer"
       @change="$emit('update:selectedFile', $event.target.files[0])"
     >
     <p v-if="selectedFile" class="mt-3 text-sm text-gray-600 dark:text-gray-400">
