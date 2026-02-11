@@ -1,6 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
+  publicPath: '/txt2epub/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
